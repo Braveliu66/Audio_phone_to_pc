@@ -1,5 +1,5 @@
 # Audio_phone_to_pc
-[English](./README.md) | **简体中文**
+[English](./README_EN.md) | **简体中文**
 
 `Audio_phone_to_pc` 是一个基于 `AudioPlaybackConnector` 二次开发的 Windows 蓝牙音频接收工具。
 
