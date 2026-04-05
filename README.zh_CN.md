@@ -13,19 +13,6 @@
 - 优化多设备切换时的交互体验,提高连接稳定性以及修复了一些bug。
 - 保留蓝牙、设备、声音设置的快捷入口。
 
-
-
-## 原项目说明与致谢
-本项目基于以下开源项目继续开发：
-- 原项目：`AudioPlaybackConnector`
-- 原作者：Richard Yu
-- 原仓库：https://github.com/ysc3839/AudioPlaybackConnector
-
-这个版本在保留原项目开源协议的前提下，加入了我自己的功能改进、交互优化和稳定性修复。
-
-## 当前维护者
-- GitHub：https://github.com/Braveliu66
-
 ## 主要功能
 - 将手机蓝牙音频连接到电脑播放。
 - 从 Windows 托盘区管理连接。
@@ -35,7 +22,7 @@
 - 支持英文 / 简体中文界面切换。
 
 ## 使用方法
-1. 下载 `Audio_phone_to_pc`。
+1. 下载 `Audio_phone_to_pc`,https://github.com/Braveliu66/Audio_phone_to_pc/releases/download/exe/Audio_phone_to_pc.zip。
 2. 先在 Windows 蓝牙设置中配对你的手机或平板。
 3. 点击托盘图标，选择想连接的设备。
 4. 在手机上播放音频，即可从电脑端收听。
@@ -44,6 +31,14 @@
 - 需要 Windows 10 2004 及以上版本，或 Windows 11。
 - 蓝牙音频接收能力依赖 Windows 蓝牙栈以及目标设备本身的支持情况。
 
+
+## 原项目说明与致谢
+本项目基于以下开源项目继续开发：
+- 原项目：`AudioPlaybackConnector`
+- 原作者：Richard Yu
+- 原仓库：https://github.com/ysc3839/AudioPlaybackConnector
+
+这个版本在保留原项目开源协议的前提下，加入了我自己的功能改进、交互优化和稳定性修复。
 ## 许可证
 本项目继续使用 MIT License。
 
