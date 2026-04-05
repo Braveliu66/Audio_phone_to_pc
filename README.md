@@ -23,7 +23,7 @@
 
 ## 使用方法
 1. 下载 `Audio_phone_to_pc`
-2. 链接: https://github.com/Braveliu66/Audio_phone_to_pc/releases/download/exe/Audio_phone_to_pc.zip。
+2. 链接: https://github.com/Braveliu66/Audio_phone_to_pc/releases/download/exe/Audio_phone_to_pc.zip
 3. 先在 Windows 蓝牙设置中配对你的手机或平板。
 4. 点击托盘图标，选择想连接的设备。
 5. 在手机上播放音频，即可从电脑端收听。
