@@ -1,0 +1,27 @@
+﻿{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build EXE (Release x64)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-Command",
+        "$vswhere = Join-Path ${env:ProgramFiles(x86)} 'Microsoft Visual Studio\\Installer\\vswhere.exe'; if (!(Test-Path $vswhere)) { throw 'vswhere.exe not found. Please install Visual Studio Build Tools 2022.' }; $msbuild = & $vswhere -latest -products * -requires Microsoft.Component.MSBuild -find 'MSBuild\\**\\Bin\\MSBuild.exe' | Select-Object -First 1; if (-not $msbuild) { throw 'MSBuild.exe not found. Please install Desktop development with C++ workload.' }; & $msbuild 'AudioPlaybackConnector.sln' /t:Restore,Build /p:Configuration=Release /p:Platform=x64"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$msCompile"
+      ]
+    }
+  ]
+}
